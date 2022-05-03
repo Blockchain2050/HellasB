@@ -1,0 +1,64 @@
+<?php
+/**
+ * Open Source Social Network
+ *
+ * @packageOpen Source Social Network
+ * @author    Open Social Website Core Team <info@informatikon.com>
+ * @copyright 2014 iNFORMATIKON TECHNOLOGIES
+ * @license   General Public Licence http://www.opensource-socialnetwork.org/licence
+ * @link      http://www.opensource-socialnetwork.org/licence
+ */
+$en = array(
+	'event' => 'Συμβάντα',
+	'events' => 'Συμβάντα',
+	'event:wall:button' => 'Συμβάν',
+    'event:fields:required:title:info' => 'Βεβαιωθείτε ότι έχετε εισάγει όλα τα πεδία.',
+	'event:creation:succes' => 'Το συμβάν έχει δημιουργηθεί με επιτυχία',
+	'event:creation:failed' => 'Το συμβάν δεν μπόρεσε να δημιουργηθεί',
+	'event:creation:succes:saved' => 'Το συμβάν αποθηκεύτηκε με επιτυχία',
+	'event:save:failed' => 'Το συμβάν δεν αποθηκεύτηκε.',
+	'event:edit' => 'Επεξεργασία Συμβάντος',
+	'event:edited' => 'Το συμβάν επεξεργάστηκε με επιτυχία.',
+	'event:edit:failed' => 'Δεν μπορεί να επεξεργαστεί το συμβάν',
+	
+	'event:decision:event:saved' => "Η απόφαση αποθηκεύτηκε με επιτυχία",
+	'event:created:by' => "<strong>Δημιουργήθηκε από:</strong> %s",
+	'event:going' => 'Θα πάω',
+	'event:interested' => 'Ενδιαφέρομαι',
+	'event:nointerested' => 'Δεν ενδιαφέρομαι',
+	
+	'event:start:time' => 'Ημέρα Έναρξης',
+	'event:end:time' => 'Ημέρα Λήξης',
+	'event:price' => 'Τιμή',
+	'event:location' => 'Τοποθεσία',
+	'event:country' => 'Χώρα',
+	'event:date' => 'Ημερομηνία',
+	'event:price:any' => 'Τιμή (αν υπάρχει)',
+	'event:image' => 'Εικόνα',
+	'event:allow:comments' => 'Επιτρέποντε σχόλια',
+
+	'event:browse' => 'Περιήγηση',
+	'event:all' => 'Όλα τα Συμβάντα',
+	'event:mine' => 'Τα Συμβάντα μου', 
+	'event:add' => 'Προσθήκη Συμβάντος',
+	'event:list' => 'Λίστα Συμβάντων',
+	
+	'event:no:result' => 'Δεν βρέθηκε αποτέλεσμα',
+	'event:delete:failed' => 'Δεν μπορεί να διαγραφεί το συμβάν',
+	'event:deleted' => 'Η διαγραφή του συμβάντος απέτυχε',
+
+	'ossn:notifications:event:relation:going' => 'Ο/Η %s θα έρθει στο Συμβάν ',
+	'ossn:notifications:event:relation:interested' => 'Ο/Η %s ενδιαφέρεται για το Συμβάν',
+	'ossn:notifications:event:relation:nointerested' => 'Ο/Η %s δεν ενδιαφέρεται για το Συμβάν',
+	
+	'events:comments:allowed:select' => '',
+	'events:comments:allowed' => 'Επιτρέπονται',
+	'events:comments:notallowed' => 'Δεν Επιτρέπονται',
+	'event:wall:item:created' => 'Δημιουργήθηκε το νέο Συμβάν',
+	'ossn:notifications:comments:entity:event:wall' => 'Ο/Η %s σχολίασε στο Συμβάν',
+	'ossn:notifications:like:entity:event:wall' => 'Στον/Στην %s αρέσει το Συμβάν σου',
+	
+	'event:title' => 'Τίτλος Συμβάντος',
+	'event:description' => 'Περιγραφή Συμβάντος',
+);
+ossn_register_languages('el', $en); 
